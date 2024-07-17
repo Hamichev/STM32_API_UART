@@ -1,0 +1,20 @@
+../Drivers/CMSIS/Include/core_cm4.h:1676:26:uint32_t __NVIC_GetPriorityGrouping()	4	static
+../Drivers/CMSIS/Include/core_cm4.h:1688:22:void __NVIC_EnableIRQ(IRQn_Type)	16	static
+../Drivers/CMSIS/Include/core_cm4.h:1724:22:void __NVIC_DisableIRQ(IRQn_Type)	16	static,ignoring_inline_asm
+../Drivers/CMSIS/Include/core_cm4.h:1816:22:void __NVIC_SetPriority(IRQn_Type, uint32_t)	16	static
+../Drivers/CMSIS/Include/core_cm4.h:1863:26:uint32_t NVIC_EncodePriority(uint32_t, uint32_t, uint32_t)	40	static
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h:1185:22:void LL_APB1_GRP1_EnableClock(uint32_t)	24	static
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h:1704:22:void LL_APB2_GRP1_EnableClock(uint32_t)	24	static
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h:410:22:void LL_USART_Enable(USART_TypeDef*)	16	static
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h:1479:22:void LL_USART_ConfigAsyncMode(USART_TypeDef*)	16	static
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h:1814:26:uint32_t LL_USART_IsActiveFlag_TXE(USART_TypeDef*)	16	static
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h:2035:22:void LL_USART_EnableIT_RXNE(USART_TypeDef*)	40	static,ignoring_inline_asm
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h:2426:22:void LL_USART_TransmitData8(USART_TypeDef*, uint8_t)	16	static
+../Core/Src/alt_Src/alt_UART.cpp:11:6:void UART_t::Init()	48	static
+../Core/Src/alt_Src/alt_UART.cpp:117:6:void UART_t::Init(USART_TypeDef*, uint32_t, uint32_t, uint32_t, uint32_t, uint32_t, uint32_t, uint32_t, IRQn_Type)	56	static
+../Core/Src/alt_Src/alt_UART.cpp:167:6:void UART_t::AddReceiveData(uint8_t)	16	static
+../Core/Src/alt_Src/alt_UART.cpp:196:6:void UART_t::SendBufTx(uint16_t)	24	static
+../Core/Src/alt_Src/alt_UART.cpp:210:6:void UART_t::SendBufRx()	32	static
+../Core/Src/alt_Src/alt_UART.cpp:247:6:void UART_t::CopyDataTx(uint8_t*, uint16_t)	32	static
+../Core/Src/alt_Src/alt_UART.cpp:263:6:void UART_t::OnIRQ(IRQn_Type)	16	static
+../Core/Src/alt_Src/alt_UART.cpp:269:6:void UART_t::OffIRQ(IRQn_Type)	16	static
